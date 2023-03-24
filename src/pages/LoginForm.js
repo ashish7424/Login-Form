@@ -41,20 +41,20 @@ const LoginForm = () => {
             <div className="login-div">
                 <form className="login-form" onSubmit={handlesubmit}>
                 {/* <label for="chk" aria-hidden="true">Login</label> */}
-            <h1 style={{color:"#573b8a"}}>Login</h1>
-                    <label>username :</label>
+            <h1 style={{color:"#573b8a",borderBottom:"2px solid #573b8a",width:"90px",padding:"5px"}}>Login</h1>
+                    <label>Username :</label>
                     <input
                         type="text"
-                        placeholder="enter your username"
+                        placeholder="Enter Your Username..."
                         value={uname}
                         onChange={(e) => setUname(e.target.value)}
                     />
                     <br />
                     <br />
-                    <label>password :</label>
+                    <label>Password :</label>
                     <input
                         type="password"
-                        placeholder="enter your password"
+                        placeholder="Enter Your Passaword..."
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     />
@@ -63,7 +63,6 @@ const LoginForm = () => {
                     <button className="login-btn" type="submit">
                         Login
                     </button>
-                    <br />
                     <br />
                     <hr />
                     Don't have account? <Link to="register"> Register here</Link>

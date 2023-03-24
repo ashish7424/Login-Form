@@ -13,9 +13,9 @@ body {
   width: 300px;
   border: 2px solid grey;
   background-color:  #eee;
-  padding: 40px;
+  padding: 0px 40px 40px;
   margin-top: 50px;
-  border-radius: 7px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -32,9 +32,9 @@ body {
 .login-form {
   width: 300px;
   border: 2px solid grey;
-  padding: 40px;
+  padding: 0px 40px 40px;
   margin-top: 50px;
-  border-radius: 7px;
+  border-radius: 20px;
   background: #eee;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

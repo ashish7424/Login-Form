@@ -59,7 +59,7 @@ const List = () => {
     return (
         <div>
             <div className='navbar'>
-                <Link to="/">Logout</Link>
+                <Link to="/">LogOut</Link>
             </div>
             <div style={{ justifyContent: "center", display: "flex" }}>
                 {/* <h1>list</h1> */}
