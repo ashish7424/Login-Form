@@ -63,7 +63,6 @@ const LoginForm = () => {
                     <button className="login-btn" type="submit">
                         Login
                     </button>
-                    <br />
                     <hr />
                     Don't have account? <Link to="register"> Register here</Link>
                 </form>

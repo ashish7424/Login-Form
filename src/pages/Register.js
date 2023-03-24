@@ -49,7 +49,6 @@ const Register = () => {
                     <div className='input'>
                         <input type='password' placeholder='Enter Your Password...' value={password} onChange={(e) => setPassword(e.target.value)} /></div><br />
                     <button className='register-btn' type='submit'>Register</button>
-                    <br/>
                     <hr />
                     Already have account? <Link to="/">Login here</Link>
                 </form>
